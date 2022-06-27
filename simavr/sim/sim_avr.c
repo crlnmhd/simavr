@@ -187,7 +187,7 @@ avr_sadly_crashed(
 		avr_t *avr,
 		uint8_t signal)
 {
-	AVR_LOG(avr, LOG_ERROR, "%s\n", __FUNCTION__);
+	AVR_LOG(avr, LOG_ERROR, "%s with signal %d\n", __FUNCTION__, signal);
 	avr->state = cpu_Stopped;
 	if (avr->gdb_port) {
 		// enable gdb server, and wait

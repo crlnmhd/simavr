@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Debug build
+
+make clean
+make AVR_ROOT=debug_build CFLAGS="-O0 -Wall -Wextra -g -fPIC \
+              -std=gnu99 -Wno-sign-compare -Wno-unused-parameter"
+              make DESTDIR="/usr" install

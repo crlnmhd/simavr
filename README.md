@@ -1,4 +1,4 @@
-Fork of [buserror/simavr](https://github.com/buserror/simavr) with some additional debug information added for simulator craches. 
+Fork of [buserror/simavr](https://github.com/buserror/simavr) with some additional debug information added for simulator craches and support for exit codes.
 &nbsp;
 
 &nbsp;
